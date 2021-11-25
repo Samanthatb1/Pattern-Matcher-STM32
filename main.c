@@ -5,7 +5,7 @@
 #include <stdbool.h> // booleans, i.e. true and false
 #include <stdio.h>   // sprintf() function
 #include <stdlib.h>  // srand() and random() functions
-#include "ece198.h"
+#include "Helper/ece198.h"
 
 void game_lost(void);
 void light_all_pins(int ledBlue, int ledRed, int ledGreen, int ledYellow);
@@ -52,7 +52,7 @@ int main(void)
     HAL_Delay(1000);
 
     // Generate LED array pattern
-    int number_in_LED_array = 5;
+    int number_in_LED_array = 4;
     int LED_array [number_in_LED_array];
 
     for (int i = 0 ; i < number_in_LED_array ; i++){
