@@ -1,5 +1,5 @@
 # Pattern Matcher
-## What it is
+## The Game
 Pattern matcher is an arcade game that allows users to test their memorization skills. The users job is to match a  randomized light pattern by pressing its corresponding button. If correct, the game moves forward and shows the user the next part of the pattern. This process continues until the user successfully matches the complete pattern. In the case that the user presses the incorrect button, the game flashes a red LED and the user is prompted to try again.
 
 ## Demo
